@@ -29,7 +29,7 @@ button:active {
     filter: blur(6px);
     opacity: 0.7;
     /* La siguiente línea hace que los efectos sean más suaves */
-    transition: transform 1s, filter 1s, opacity 1s;
+    transition: transform 1s ease-in-out, filter 1s ease-in-out, opacity 1s ease-in-out;
 }
 
 #mensaje:hover {
