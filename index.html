@@ -10,20 +10,21 @@
 </head>
 <body>
     <div class="container">
-        <div>
+        <div class="logobar">
             <img src="./img/logo-tecnm.svg" height="100" alt="Logo del TecNM">
-            <img src="./img/logo-itcolima.svg" height="100" alt="Logo del IT Colima">
+            <img src="./img/logo-itcolima.svg" height="80" alt="Logo del IT Colima">
         </div>
         <h1>Captura de nombres</h1>
-        <h3>Teclea tu nombre aquí</h3>
-        <form class="formulario">
+        <h2>Teclea tu nombre aquí</h2>
+        <form id="formulario" class="formulario">
             <div id="errores"></div>
-            <!-- INTRODUCE EL CÓDIGO FALTANTE EN ESTE ESPACIO -->
-            <!-- <input type="text" id="txtNombre"> -->
-            <!-- <br/> -->
-            <!-- <input type="text" id="txtApellido"> -->
-            <!-- <br/> -->
-            <!-- <button id="btnEnviar">Enviar</button> -->
+            <!-- INICIA CÓDIGO FALTANTE -->
+            <input type="text" id="txtNombre" placeholder="Escribe tu nombre" required autofocus>
+            <br/>
+            <input type="text" id="txtApellido" placeholder="Escribe tu apellido" required>
+            <br/>
+            <button type="submit">Enviar</button>
+            <!-- FIN DEL CODIGO FALTANTE -->
         </form>
         <div id="mensaje"></div>
     </div>
