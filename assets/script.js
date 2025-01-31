@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-    let btnEnviar = document.getElementById('btnEnviar');
+    let formulario = document.getElementById('formulario');
 
-    btnEnviar.addEventListener('click', function(e) {
+    formulario.addEventListener('submit', function(e) {
         e.preventDefault();
         let nombre = document.getElementById('txtNombre').value;
         let apellido = document.getElementById('txtApellido').value;
@@ -13,8 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        mensaje.innerText = "Hola " + nombre + " " + apellido + "!";
-        mensaje.innerText += "\n";
+        mensaje.innerText = "¡Hola " + nombre + " " + apellido + "!\n";
         mensaje.innerText += "Bienvenido al Tecnológico de Colima";
     });
 });
